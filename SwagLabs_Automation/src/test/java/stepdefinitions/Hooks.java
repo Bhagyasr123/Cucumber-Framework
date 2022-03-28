@@ -38,15 +38,6 @@ public class Hooks {
 		ExtentManager.startReport();
 		ExtentManager.createTest(scenario.getName());
 	}
-
-
- @AfterStep
-	/*
-	 * public void testcase(Scenario scenario){
-	 * 
-	 * for (Step a : scenario.getTestSteps()) {
-	 * System.out.println("scenario step = " + a.getText()); } }
-	 */
     
 	@Test
 	public void test() {
