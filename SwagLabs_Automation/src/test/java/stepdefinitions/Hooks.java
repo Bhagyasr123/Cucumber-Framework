@@ -23,9 +23,6 @@ public class Hooks {
 	public static String reportLocation;
 	public static ExtentTest extentTest;
 	private static final Logger logger = LoggerFactory.getLogger(Hooks.class);
-	private int currentStepDefIndex = 0;
-    String  currentStepDescr = null;
-
 
 	@Before(order = 1)
 	public void setUp() throws IOException {
